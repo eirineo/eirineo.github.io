@@ -1,0 +1,36 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, black, gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar{
+    color: orange;
+    height: 100px;
+    font-size: 25px;
+    margin: auto;
+    max-width: 1200px;
+}
+#name{
+    margin: 25px;
+    height: auto;
+}
+ul{
+    float: right;
+}
+#navbar li{
+    margin: 10px;
+    display: inline-block;
+}
+#name{
+    float: left;
+}
